@@ -1,0 +1,42 @@
+<!DOCTYPE Html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  
+</head>
+  <body>
+<h1> My Contact Details </h1>
+<p>
+<br> By Mail:</br>
+<br> P.O. Box 47332</br>
+<br> Windsor Mill, Md 21244 </br><br>By Phone:</br>
+  <br>410-205-6211</br>
+  <br>By Email:</br> 
+    <br><a href="mailto:EMAIL_ADDRESS">Chiafruitdrink@gmail.com</a></br>
+</p> 
+    <hr>
+<p>
+<form align="center" class="" action="mailto:chiafruitdrink@gmail.com" method="post" enctype="text/plain">
+<h3><label>How May I Help You?</label></h3>
+ Subject:  <input type="text" name="Subject" value="" size=""> <br>
+Message:  <textarea name="YourMessage" cols="x" rows="y"></textarea> 
+ <br>
+  
+  <label> Your Name: </label>
+<input type="text" name="YourName" value=""> <br>
+<label> Your Email Address:  </label>
+  <input type="email" name="YourEmail" value="">
+  
+  <input type="submit"name=""> <br>
+<input type="checkbox" name="" value="" checked> 
+  <label> I may save your contact info and keep you up to date with any and everything new!</label>
+
+
+  
+</form>
+</p>
+     
+<script src"script.js"></script>
+  </body>
+</html>
